@@ -4,8 +4,8 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #E5E5E5;
     --red: #E62E4D;
-    --blue: #5429CC;
     --green: #33CC95;
+    --blue: #5429CC;
     
     --blue-light: #6933ff;
 
@@ -75,9 +75,6 @@ export const GlobalStyle = createGlobalStyle`
     position: relative;
     border-radius: 0.25rem;
 
-    &:focus {
-      border: 0;
-    }
   }
 
   .react-modal-close {
