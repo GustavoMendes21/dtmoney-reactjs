@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+<h1 align="center">
+	<img alt="Logo" src="https://github.com/GustavoMendes21/dtmoney-reactjs/blob/main/public/favicon.png" width="50px" />
+<!--   Application Logo -->
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Dtmoney
+</h3>
 
-## Available Scripts
+<p align="center">Aplicação de controle de finanças desenvolvido com Reactjs</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/static/v1?label=Language&message=Javascript&color=1E90FF&style=for-the-badge>&logo=JavaScript">
 
-### `yarn start`
+  <a href="https://www.linkedin.com/in/eliasgcf/">
+    <img alt="Made by" src="https://img.shields.io/static/v1?label=Made By&message=Gustavo Mendes&color=1E90FF&style=for-the-badge>&logo=linkedin">
+  </a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#-about-the-project">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 👨🏻‍💻 Sobre o projeto
 
-### `yarn test`
+<p style="color: red;">
+    O projeto foi desenvolvido durante o segundo modulo do ignite com o objetivo de aplicar na prática
+  os conceitos de React visto no módulo anterior. 
+  
+  Também foi ensinado boas práticas no desenvolvimento front-end
+  configuração de estilos globais, configuração de variáveis CSS, padrão de nomes para as variáveis, organização dos componentes por responsabilidades
+  médidas relativas (rem) e boas práticas pra facilitar a implementação de responsividade. 
+  
+  O projeto foi construido com Reactjs usando Typescript, foi ultilizado styled components para a estilização, foi usado também a biblioteca react-modal pra 
+  implementação do modal
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p style="color: red;">
+<h2>Conceitos aprendidos: </h2>
+<ul>
+	<li>Manipulação da DOM</li>
+	<li>Componentização</li>
+	<li>Typescript</li>
+	<li>React Hooks: useState, useEffect, useContext</li>
+	<li>Consumir e enviar dados a uma API via AXIOS</li>
+	<li>ContextApi</li>
+	<li>Css in Js - Styled Components</li>
+	<li>Boas práticas de ReactJS e desenvolvimento front end no geral</li>
+  
+	
+</ul>
+</p>
 
-### `yarn build`
+## 🚀 Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies that I used to develop this web client
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+<!-- - [React Router DOM](https://reacttraining.com/react-router/) -->
+<!-- - [React Icons](https://react-icons.netlify.com/#/) -->
+<!-- - [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/) -->
+<!-- - [Yup](https://github.com/jquense/yup) -->
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+<!-- - [Husky](https://github.com/typicode/husky) -->
+<!-- - [Commitlint](https://github.com/conventional-changelog/commitlint) -->
+<!-- - [Commitizen](https://github.com/commitizen/cz-cli) -->
+<!-- - [Eslint](https://eslint.org/) -->
+<!-- - [Prettier](https://prettier.io/) -->
+<!-- - [EditorConfig](https://editorconfig.org/) -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>Desktop:</h2>
+<img src="https://github.com/GustavoMendes21/dtmoney-reactjs/blob/main/public/screenshot-rocks.png"></img>
+<img src="https://github.com/GustavoMendes21/dtmoney-reactjs/blob/main/public/screenshot-rocks%20(1).png"></img>
+<!-- <h2>Mobile:</h2>
 
-### `yarn eject`
+<img src="https://github.com/GustavoMendes21/netflix-clone-reactjs/blob/main/public/screenshot-rocks-phone.png"></img> -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
